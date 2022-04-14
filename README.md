@@ -17,7 +17,7 @@ This allows you to preview the end of the file before every thumbnail has been g
 
 ## How do I install it?
 
-Grab both the two `.lua`s from the [**releases page**](https://github.com/TheAMM/mpv_thumbnail_script/releases) and place them both to your mpv's `scripts` directory.
+Grab the `.lua` files from the [**releases page**](https://github.com/TheAMM/mpv_thumbnail_script/releases) and place them in mpv's `scripts` directory.
 
 For example:
   * Linux/Unix/Mac: `~/.config/mpv/scripts/mpv_thumbnail_script_server.lua` & `~/.config/mpv/scripts/mpv_thumbnail_script_client_osc.lua`
@@ -54,11 +54,11 @@ Simply copy the `mpv_thumbnail_script_server.lua` once or twice (`mpv_thumbnail_
 This improves thumbnailing speed a bunch, but you will quickly max out your CPU - I recommend only having two or three copies of the script.  
 (Why multiple copies of the same file? mpv gives each script their own thread - easy multithreading!)
 
-To adjust the script's options, create a file called `mpv_thumbnail_script.conf` inside your mpv's `lua-settings` directory.
+To adjust the script's options, create a file called `mpv_thumbnail_script.conf` inside your mpv's `script-opts` directory.
 
 For example:
-  * Linux/Unix/Mac: `~/.config/mpv/lua-settings/mpv_thumbnail_script.conf`
-  * Windows: `%APPDATA%\mpv\lua-settings\mpv_thumbnail_script.conf`
+  * Linux/Unix/Mac: `~/.config/mpv/script-opts/mpv_thumbnail_script.conf`
+  * Windows: `%APPDATA%\mpv\script-opts\mpv_thumbnail_script.conf`
 
 (See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.)
 
