@@ -33,8 +33,6 @@ While the script doesn't need external dependencies and can work with mpv alone,
 
 In general, you should just use multiple worker scripts ([Configuration](#configuration)) instead of taking the FFmpeg-risk.
 
-**Note:** You will need a rather new version of mpv due to [the new binds](https://github.com/mpv-player/mpv/commit/957e9a37db6611fe0879bd2097131df5e09afd47#diff-5d10e79e2d65d30d34f98349f4ed08e4) used in the patched `osc.lua`.
-
 ## How do I use it?
 
 Just open a file and hover over the seekbar!  
@@ -155,4 +153,4 @@ You may also, of course, just `cat` the files together yourself. See the [`cat_o
 #### Footnotes
 <sup>1</sup>You *may* need to add `mpv[.exe]` to your `PATH` (and *will* have to add `ffmpeg[.exe]` if you want faster generation).
 
-<sup>2</sup>Developed & tested on Windows and Linux (Ubuntu), but it *should* work on Mac and whatnot as well, if <sup>1</sup> has been taken care of.
+<sup>2</sup>Tested on Linux (Arch), but it *should* work on Windows/Mac and whatnot as well, if <sup>1</sup> has been taken care of.
